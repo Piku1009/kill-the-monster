@@ -22,7 +22,13 @@ function setup() {
   fly = new Fly(hero.body,{x:300,y:100});
   box1 = new Box(1000,200);
   box2 =  new Box(1100,200);
-  box3 = new Box(1000,300)
+  box3 = new Box(1000,300);
+  box4 = new Box(1100,300);
+  box5 = new Box(1000,100);
+  box6 = new Box(1100,100);
+  box7 = new Box(900,100);
+  box8 = new Box(900,200);
+  box9 = new Box(900,300);
  
 }
 
@@ -35,6 +41,12 @@ function draw() {
   box1.display();
   box2.display();
   box3.display();
+  box4.display();
+  box5.display();
+  box6.display();
+  box7.display();
+  box8.display();
+  box9.display();
   image(monster1Image,2500,400,400,400);
 }
 function mouseDragged(){
